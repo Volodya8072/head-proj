@@ -1,0 +1,78 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    font-weight:500;
+    background-image: url("https://abrakadabra.fun/uploads/posts/2022-02/1644354147_5-abrakadabra-fun-p-ekran-s-serdechkami-11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+
+}
+
+.contain {
+    display: flexbox;
+    height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    justify-content:center;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+
+
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 65px 125px;
+    border-radius: 45px;
+    font-size: large;
+    font-weight: 500;
+    transition: all 1.5s ease;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+
+a {
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+
+    position: relative;
+    color: wheat;
+    padding: 20px 30px;
+    margin-left: 900px;
+    margin-top: 320px;
+    width: 250px;
+    border-radius: 35px;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+
+.a:hover {
+    padding-left: 45px ;
+    transform:scale(1.1);
+    background-color: rgb(243, 20, 20);
+}
+
